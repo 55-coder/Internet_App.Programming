@@ -1,1 +1,13 @@
-
+Running the Application:
+To run KejaKonnect locally, follow these steps:
+1.	Install Python and Django on your system if not already installed.
+2.	Clone the KejaKonnect repository from GitHub.
+3.	Navigate to the project directory in your terminal.
+4.	Create a virtual environment.
+5.	Pip install pillow to the project.
+6.	Activate the virtual environment.
+7.	Run the following commands to set up the database and start the server:
+python manage.py makemigrations
+python manage.py migrate
+python manage.py runserver
+8.	Access the application in your web browser at http://localhost:8000.
